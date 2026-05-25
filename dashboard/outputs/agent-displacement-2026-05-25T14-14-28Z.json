@@ -1,0 +1,184 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "agent-displacement",
+        "description": "2026-05-25"
+      },
+      "children": [
+        "heading-thesis",
+        "text-thesis",
+        "text-caveat",
+        "sep1",
+        "heading-meta",
+        "stat-8k",
+        "stat-6k",
+        "stat-7k",
+        "text-ata",
+        "sep2",
+        "heading-industry",
+        "stat-113k",
+        "text-roles-affected",
+        "sep3",
+        "heading-vertical",
+        "text-goldman",
+        "sep4",
+        "heading-roles-week",
+        "stack-roles"
+      ]
+    },
+    "heading-thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h2"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Accelerating — Meta cut ~8,000 (notices May 20) in an explicit AI-first reorg, redeploying ~7,000 into agent teams; 2026 tech layoffs passed 113K."
+      }
+    },
+    "text-caveat": {
+      "type": "Text",
+      "props": {
+        "text": "Caveat: Klarna is rehiring humans and Gartner sees 50% of AI-cited cuts reversing by 2027 — some of this is AI-washing.",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "heading-meta": {
+      "type": "Heading",
+      "props": {
+        "text": "Meta Reorg",
+        "level": "h2"
+      }
+    },
+    "stat-8k": {
+      "type": "Stat",
+      "props": {
+        "label": "Cuts (notices May 20)",
+        "value": "~8,000"
+      }
+    },
+    "stat-6k": {
+      "type": "Stat",
+      "props": {
+        "label": "Cancelled reqs",
+        "value": "6,000"
+      }
+    },
+    "stat-7k": {
+      "type": "Stat",
+      "props": {
+        "label": "Redeployed to agent teams",
+        "value": "~7,000"
+      }
+    },
+    "text-ata": {
+      "type": "Text",
+      "props": {
+        "text": "New team: Agent Transformation Accelerator"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "heading-industry": {
+      "type": "Heading",
+      "props": {
+        "text": "Industry-wide",
+        "level": "h2"
+      }
+    },
+    "stat-113k": {
+      "type": "Stat",
+      "props": {
+        "label": "2026 tech layoffs YTD (May 18)",
+        "value": "113K"
+      }
+    },
+    "text-roles-affected": {
+      "type": "Text",
+      "props": {
+        "text": "Roles affected: junior devs, QA, technical writers, support engineers"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "heading-vertical": {
+      "type": "Heading",
+      "props": {
+        "text": "New Vertical",
+        "level": "h2"
+      }
+    },
+    "text-goldman": {
+      "type": "Text",
+      "props": {
+        "text": "Goldman × Anthropic: Claude agents breach finance back-office (trade accounting, client onboarding)"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "heading-roles-week": {
+      "type": "Heading",
+      "props": {
+        "text": "Roles Displaced This Week",
+        "level": "h2"
+      }
+    },
+    "stack-roles": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-mgmt",
+        "badge-code",
+        "badge-content",
+        "badge-ops",
+        "badge-finance"
+      ]
+    },
+    "badge-mgmt": {
+      "type": "Badge",
+      "props": {
+        "text": "management"
+      }
+    },
+    "badge-code": {
+      "type": "Badge",
+      "props": {
+        "text": "code/dev"
+      }
+    },
+    "badge-content": {
+      "type": "Badge",
+      "props": {
+        "text": "content"
+      }
+    },
+    "badge-ops": {
+      "type": "Badge",
+      "props": {
+        "text": "tier-1 ops"
+      }
+    },
+    "badge-finance": {
+      "type": "Badge",
+      "props": {
+        "text": "finance/legal"
+      }
+    }
+  }
+}
