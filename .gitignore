@@ -27,6 +27,10 @@ skills.lock
 tmp_*
 *.tmp
 .tmp-*
+.cg_markets.json
+.poly_events.json
+.score.py
+.notify-msg.md
 .pending-*.sh
 .run-*.sh
 .*-tmp.md
