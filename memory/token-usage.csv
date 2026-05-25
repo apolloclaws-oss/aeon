@@ -1,3 +1,3 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-25,agent-displacement,claude-opus-4-7,4479,17467,988694,102572
-2026-05-25,token-pick,claude-opus-4-7,83,36161,2517370,70077
+2026-05-25,token-pick,claude-opus-4-7,61,23334,1463607,68296

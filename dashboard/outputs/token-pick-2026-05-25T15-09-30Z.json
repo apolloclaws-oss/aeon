@@ -1,0 +1,285 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-05-25"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-near",
+        "stack-near-badges",
+        "stat-price",
+        "stack-metrics",
+        "heading-score",
+        "text-score-breakdown",
+        "separator-1",
+        "heading-catalyst",
+        "text-catalyst",
+        "heading-risk-near",
+        "text-risk-near",
+        "text-vs-recent",
+        "separator-2",
+        "heading-microstrategy",
+        "stack-mstr-badges",
+        "text-market-odds",
+        "heading-fair-yes",
+        "text-fair-inputs",
+        "heading-thesis",
+        "text-thesis",
+        "heading-risk-mstr",
+        "text-risk-mstr",
+        "separator-3",
+        "text-sources",
+        "text-disclaimer"
+      ]
+    },
+    "heading-near": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: NEAR",
+        "level": "h2"
+      }
+    },
+    "stack-near-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-high",
+        "badge-signal"
+      ]
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "secondary"
+      }
+    },
+    "badge-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$2.67",
+        "delta": "+7.1% 24h / +79.4% 7d",
+        "trend": "up"
+      }
+    },
+    "stack-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-mcap",
+        "stat-volume",
+        "stat-vol-mcap"
+      ]
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$3.5B"
+      }
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$913M"
+      }
+    },
+    "stat-vol-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap",
+        "value": "0.26"
+      }
+    },
+    "heading-score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "text-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "24h +1 | 7d +1 | both >5% +2 | trending +2 | vol/mcap +3 | RS vs BTC&ETH +2 = 11 → capped 10/10",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "text-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Arthur Hayes named NEAR in his \"holy trinity\" (w/ HYPE, ZEC) on May 23, stacking on the post-NVIDIA AI rotation + a May 20–22 cluster of privacy/AI upgrades and an inflation cut (5%→2.5%).",
+        "variant": "body"
+      }
+    },
+    "heading-risk-near": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "text-risk-near": {
+      "type": "Text",
+      "props": {
+        "text": "Rally is heavily short-squeeze + endorsement driven (~$9.85M shorts liquidated) — once liquidations exhaust, +79%/wk is extended and prone to a sharp mean-reversion; June Dynamic Resharding is a sell-the-news set-up.",
+        "variant": "body"
+      }
+    },
+    "text-vs-recent": {
+      "type": "Text",
+      "props": {
+        "text": "vs recent picks: first time",
+        "variant": "muted"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-microstrategy": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"MicroStrategy sells any Bitcoin by May 31, 2026?\"",
+        "level": "h2"
+      }
+    },
+    "stack-mstr-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-medium",
+        "badge-edge"
+      ]
+    },
+    "badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "badge-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge ~5.5pp",
+        "variant": "default"
+      }
+    },
+    "text-market-odds": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 9.5¢ / NO 90.5¢ | 24h vol $140k | resolves: 2026-05-31",
+        "variant": "body"
+      }
+    },
+    "heading-fair-yes": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES: ~4%",
+        "level": "h3"
+      }
+    },
+    "text-fair-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Saylor now says a sale is \"not unlikely... by year-end\" — door is open but no decision; any sale would more plausibly land Q3/Q4 tied to a plan, not a 6-day window; the Dec-31 market sits at 76% vs only 9.5% near-term, so the curve itself prices this as back-loaded.",
+        "variant": "body"
+      }
+    },
+    "heading-thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Fade YES / buy NO — the 9.5¢ overprices the chance of an actual sale executing in the next 6 days.",
+        "variant": "body"
+      }
+    },
+    "heading-risk-mstr": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "text-risk-mstr": {
+      "type": "Text",
+      "props": {
+        "text": "Saylor is actively signaling, so a surprise sale announcement at a conference or filing before May 31 resolves YES and breaks the estimate.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=ok",
+        "variant": "muted"
+      }
+    },
+    "text-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}
